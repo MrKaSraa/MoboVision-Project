@@ -1,0 +1,42 @@
+footer{
+    display:flex;
+justify-content:center;
+color:rgb(0, 0, 0);
+font-family: vazir;
+direction: rtl;
+background-color: white;
+
+}
+.div-icons-footer{
+  position:absolute;
+  left: 100px;
+}
+@media (max-width:500px) {
+    footer{
+        font-size: .8rem;
+    }
+}
+@media (max-width:767px) {
+    .div-icons-footer-2{
+        display: none !important;
+    }.div-icons-footer{
+        display: none !important;
+    }
+}
+.div-icons-footer-2{
+    position:absolute !important;
+    right: 100px;
+}
+.icon-footer{
+    width: 2rem;
+    height: 2rem;
+    color: black !important;
+
+}
+.icon-footer:hover{
+    opacity: .7;
+    cursor: pointer;
+}
+.Typewriter{
+  margin-top: .3rem !important;
+}

@@ -1,0 +1,99 @@
+.userList {
+    flex: 4;
+}
+
+.userListUser {
+    display: flex;
+    align-items: center;
+}
+
+.userListImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.userListEdit {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #3bb077;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.userListDelete {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.box-data{
+    background-color: white;
+    display: grid;
+    justify-content:center;
+  
+}
+.data-grid{
+    margin-left: auto !important ;
+  margin-right: auto !important;
+  width: 1000px ;
+  border: #4747a3 1px solid !important;
+  
+}
+.MuiDataGrid-columnHeaderTitle{
+    font-family: vazir;
+    
+}
+.title-user{
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-family: vazir;
+    background: linear-gradient(to right, #fff 20%, #2289b9 40%, #5c7eb1 60%, #fff 80%);
+    background-size: 200% auto;
+    color: #000;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 2s linear infinite;
+}
+.title-user-div{
+    background-color:#4747a3 ;
+}
+.div-asli-user{
+    background-color: white !important;
+}
+    .MuiDataGrid-cellContent{
+        font-family: vazir;
+    }
+   
+      
+  @keyframes animate {
+        to {
+            background-position: 200% center;
+        }
+    }
+    @media (max-width:1100px) {
+        .data-grid{
+            width: 800px;
+        } 
+    }
+    @media (max-width:852px) {
+        .data-grid{
+            width: 500px;
+        } 
+    }
+    @media (max-width:530px) {
+        .data-grid{
+            width: 300px;
+        }
+    }
+    @media (max-width:330px) {
+      .title-user h4{
+        font-size: .9rem !important;
+      }
+    }

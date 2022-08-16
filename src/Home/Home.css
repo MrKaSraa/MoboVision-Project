@@ -1,0 +1,262 @@
+.feature-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
+
+.chart-div{
+    padding:.3rem ;
+margin-left:  auto !important;
+margin-right:  auto !important;
+width: 820px;
+}
+@media (max-width:820px) {
+    .chart-div{
+        width:100% !important; 
+  
+        
+    }.chartTitle{
+        margin-right: 1rem;
+        font-size:1rem;
+        text-align: center !important;
+    }
+}
+@media (max-width:768px) {
+  .feature-div{
+    display: grid;
+    justify-content: center;
+  }.buyers-state{
+    display: grid !important;
+    justify-content: center !important;
+  }.best-buyers{
+    margin-bottom: 1rem;
+  }.barchart-div{
+    display: grid !important;
+    justify-content: center !important;
+   
+  }.barchart{
+    margin-bottom: 2rem;
+   
+  }
+}
+
+@media(max-width:766px){
+.tablee{
+    display: none !important;
+   }.title-soles{
+    display: none !important;
+   }
+}
+.chartTitle{
+    text-align: right;
+     font-family: vazir;
+     color: beige;
+}
+.charttt{
+    box-shadow: 0 0 15px -2px rgba(0,0,0,0.75);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  
+}
+
+.buyers-state{
+    display: flex;
+
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.buyers-title{
+    text-align: center;
+background-color: white;
+font-family: vazir;
+padding: 2rem;
+}
+
+.buyers-div{
+        background-color: white;
+        margin-top: 3rem;
+       
+        padding-bottom: 3rem;
+}
+
+.hihhh{
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+}
+
+.chart-help-div{
+    display: flex;
+}
+.chart-help{
+    display: flex;
+    font-family: vazir;
+}
+.icon-chart-help{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.table-home{
+    width: 700px !important;
+    margin-left: auto;
+    margin-right: auto;
+   font-family: vazir;
+   text-align: center;
+}
+.img-trance-action{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+
+}
+
+
+.sales{
+background-color: #4747a3;
+
+padding-top: 3rem;
+padding-bottom: 3rem;
+padding-left: 1rem;
+padding-right: 1rem;
+margin-top: 2rem;
+}
+
+.tablee{
+    width: 730px !important ;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: vazir;
+    text-align: center;
+    border-radius: 20px !important;
+}
+
+
+
+.img-sales{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.p-soles{
+    margin-top: revert !important;
+}
+
+.title-soles{
+    text-align: center;
+color: white;
+    font-family: vazir;
+    padding: 1.5rem; 
+    margin-bottom: 2rem;
+}
+
+.tr-hed{
+    height: 3rem;
+}
+
+.td-hed{
+    margin-top: revert !important;
+}
+
+
+
+
+.bar-title{
+   text-align: center !important; 
+}
+
+
+.chart-res{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+}
+
+@media (max-width:768px) {
+    .chart-res{
+        display: none;
+    }
+}
+@media (max-width:767px) {
+    .piechart-div{
+        display: grid !important;
+        justify-content: center !important;
+    }.progres{
+    width: 280px !important;
+    }.pro-div{
+        width: 300px !important;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1rem;
+    }
+}
+
+.chart-help{
+    color: rgb(155, 149, 149);
+}
+
+
+.piechart{
+    box-shadow: 0 0 15px -2px rgba(0,0,0,0.75);
+    margin: 1rem;
+background-color: white !important;
+}
+
+.piechart-div{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: vazir;
+   background-color: #4747a3;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.progres{
+  width: 300px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.pro-div{
+    box-shadow: 0 0 15px -2px rgba(0,0,0,0.75); 
+    height: 425px !important;
+    margin-top: 1rem;
+    background-color: white;
+}
+.pro-div p{
+    font-family: vazirlight;
+    margin-right: .5rem;
+}
+
+.h4-pichart{
+    margin-top: 2rem;
+}
+.help-pichart{
+    display: flex;
+    justify-content: space-around;
+}
+
+.help-pichart-text{
+    display: flex;
+    flex-direction: row-reverse;
+  
+}
+
+.progres{
+    background-color: #c4c4c4 !important;
+
+}
+.barchart-div{
+    background-color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}

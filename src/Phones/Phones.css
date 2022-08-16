@@ -1,0 +1,378 @@
+
+.header-phone{
+    display:flex;
+padding-top: 3rem;
+padding-bottom: 3rem;
+justify-content:space-around;
+    background:linear-gradient(to right, red, #4747a3);
+text-align: right;
+margin-bottom: 3rem;
+}
+.footer-phone{
+    background:linear-gradient(to left, red, #4747a3);
+    padding-top: 4rem;
+padding-bottom: 4rem;
+display: flex;
+justify-content: space-around;
+flex-direction: row-reverse;
+}
+.p1-text-footer-phone{
+    font-family: vazir !important;
+    font-size:2rem;
+}
+.textfooter2{
+    font-family: vazirlight;
+    color: white;
+    text-align: center;
+}
+.textfooter3{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.btn-outline-light{
+    font-family: vazir !important;
+}
+.p2-text-footer-phone{
+   line-height: 3rem;
+}
+.button-footer{
+    display: flex;
+}
+.buttons-footer{
+    margin-top: 1rem;
+}
+.text-footer-phone{
+    text-align: right;
+    color: white;
+    font-family: vazirlight;
+}
+@media (max-width:768px) {
+    .text-header{
+        margin-right:1rem;
+    }.footer-phone{
+        display: grid !important;
+        justify-content: center;
+      
+    }.button-footer{
+        display: flex;
+        justify-content: space-around;
+    }.text-footer-phone{
+          text-align: center !important;
+    }
+}
+@media (max-width:767px) {
+    .text-header{
+        margin-right:.3rem;
+        text-align: center;
+    }.header-phone{
+display: grid;
+justify-content: center;
+    }.img-header-phone{
+        display:flex;
+
+justify-content: center;   
+ }
+}
+.p1-text-header{
+    font-size: 2rem;
+}
+.btn-header{
+   box-shadow: 0 0 25px #5ddcff,
+               0 0 50px #4e00c2;
+               cursor: default !important;
+               border: none !important;
+}
+.btn-header:hover{
+    color: white  !important;
+    border: none !important;
+}
+.header-phone p{
+  direction: rtl;
+    font-family: vazirlight;
+color: white;}
+
+.img-card{
+    margin-left: auto !important;
+    margin-right: auto !important;
+      
+  cursor: pointer;
+  transition: all .5s ease;
+}
+
+.card-text{
+    font-family: vazir;
+    text-align: center;
+    direction: rtl;
+    line-height: 2rem;
+}
+
+.title-card{
+    text-align: center;
+}
+
+.title-card1{
+    font-size: .8rem !important; 
+    color: gray;
+}
+.card-body-footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color:black;
+    border-bottom-left-radius: 17px !important;
+    border-bottom-right-radius: 17px !important;
+    font-family: vazirlight;
+}
+.card-body-footer p{
+    direction: rtl;
+    font-family: vazir;
+
+    height: 10px !important;
+}
+
+.card{
+    border: 1px solid black !important;
+    border-radius: 20px !important;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+.card-link{
+       text-decoration: none !important;
+       color: white !important;
+}
+.details {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    opacity: 0;
+    transition: 0.5s ease;
+    font-family: vazir;
+    
+}
+.apple-icon{
+    width:1.5rem  !important;
+    height: 1.5rem !important;
+}
+
+
+
+
+.img-card:hover{
+  -webkit-filter: grayscale(0);
+  transform: scale(1.2,1.2);
+}
+
+
+
+.card-titles{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-family: vazir;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    
+}
+.p-card-title{
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    background-color: #ffffff10 ;
+    border-radius: 50px !important;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+hr{
+    color: white !important;
+    background-color: white !important;
+}
+
+.timer{
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    background-color: #ffffff10 ;
+    border-radius: 50px !important;
+    height: 68px !important;
+}
+.div-timer-span{
+    color: rgb(255, 255, 255);
+    font-size: 1.7rem;
+    padding: 1rem;
+  
+   
+}
+.span-shadow{
+    animation: lower 9s linear infinite;
+}
+
+
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    
+  
+ 
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper-pagination{
+      margin-top:  1rem;
+  }
+  .swiper-pagination-bullets{
+    bottom: 0 !important;
+  }
+  .p-slider{
+    font-size: 1rem;
+    font-family: vazir;
+    color: white;
+    direction: rtl;
+  }
+  .card-link-slider{
+    color: white;
+    font-family: vazir;
+    text-decoration: none !important;
+  }
+  .card-body-footer-slider{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(36, 35, 35);
+    border-bottom-left-radius: 17px !important;
+    border-bottom-right-radius: 17px !important;
+  }
+  .Samsung-icon{
+    width: 2rem !important;
+    height: 1rem !important;
+    color: gray;
+  }
+
+  @media (max-width:568px) {
+    .card-titles{
+        display: grid;
+        justify-content: center;
+        
+    }.p-card-title{
+        margin-top: 1rem;
+    }.apple-title-icon{
+            margin-left: 6rem !important;
+    }.samsung-title-icon{
+        margin-left: 7rem !important;
+    }
+     
+  }
+  
+  @media (max-width:860px) {
+    .cards{
+        display: grid !important;
+        justify-content: center !important;
+    } 
+        
+    
+  }
+
+
+  @keyframes lower{
+    0%,12%,18.999%,23%,31.999%,37%,44.999%,44%,49.999%,51%,58.999%,61%,68.999%,71%,85.999%,96%,100%{
+        opacity: .99;
+        text-shadow: 0 0 80px red,0 0 30px red,0 0 6px darkred;
+    }
+    19%,22.99%,32%,36.999%,45%,45.999%,50%,50.99%,59%,60.999%,69%,70.999%,86%,95.999%{
+        opacity: 0.4;
+        text-shadow: none;
+    }
+}
+
+.apple-title-icon{
+    width: 3rem;
+    height: 3rem;
+   
+    margin: .5rem;
+    animation: apple 3s linear infinite;
+}
+
+@keyframes apple {
+ 0%,
+ 100%{
+    color: #1b1b8b;
+ }
+ 25%{
+    color: darkred;
+ }
+ 50%{
+    color: #5454ca;
+ }
+ 75%{
+    color: red;
+ }
+}
+
+
+
+.card-title-iphone{
+    margin-top: 7rem;
+}
+.samsung-title-icon{
+    width: 4rem;
+    height: 4rem;
+   margin-bottom: 3rem !important;
+    margin: .5rem;
+    animation: apple 3s linear infinite;
+}
+.icons-div{
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    background-color: #ffffff10 ;
+    border-radius: 50px !important;
+    height: 68px !important;
+}
+.icons-div-samsung{
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    background-color: #ffffff10 ;
+    border-radius: 50px !important;
+    height: 80px !important;
+}
+
+@media (max-width:767px) {
+    .sales{
+        display: none !important;
+    }
+}

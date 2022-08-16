@@ -1,0 +1,139 @@
+header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+ 
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+  flex-direction: row-reverse;
+
+}
+.icons-header{
+    display: flex;
+  
+}.icons-header-div{
+    display: flex;
+    align-items: center;
+  margin-left: 2rem;
+}
+
+
+
+.badgee{
+    width: 15px;
+    height: 15px;
+   font-size: 10px;
+    top: -5px;
+    right: 0;
+    background-color: #4747a3;
+align-items: center;
+color:white;
+padding-left: .3rem;
+border-radius: 10px;
+margin-left: -6px;
+}
+
+.img-header{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    transition: all .5s ease;
+}
+.img-header:hover{
+    transform: scale(1.1,1.1);
+}
+.icon-header{
+width: 1.5rem;
+height: 1.5rem;
+margin-left: 1.3rem;
+cursor: pointer;
+}
+.icon-header:hover{
+    color: #4747a3;
+}
+.brand-header{
+    font-size: 1.5rem;
+    font-family: vazir;
+    background:linear-gradient(to right,#fff 20%,#141414 40%,#4747a3 60%, #fff 80%);
+    background-size: 200% auto;
+    color: #000;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-fill-color:transparent;
+    animation: animate 3s linear infinite;
+    margin-right: 2rem;
+    padding-top: .3rem;
+}
+
+@keyframes animate {
+    to {
+        background-position: 200% center;
+    }
+}
+
+
+@media (max-width:468px) {
+    header{
+        display: grid;
+        justify-content: center;
+      padding-bottom: 2rem;
+        height: 140px;
+
+    }.icons-header-div{
+        margin-left: 0;
+        order: 2;
+        margin-bottom: 3rem;
+        display: flex;
+        justify-content: space-around !important;
+        width: 250px;
+      
+    }.brand-header{
+        margin-right: 0 !important;
+        text-align: center !important;
+        order: 1;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }.Offcanvas{
+        width: 100% !important;
+    }
+}
+
+.Offcanvas{
+    width: 320px !important;
+    font-family: vazir;
+}
+
+
+.icon-offcanvas{
+    display:flex;
+    font-family: vazir !important;
+    justify-content: space-between;
+}
+
+.div-icons-offcanvas{
+    text-align: right;
+
+    font-family: vazirlight !important;
+}
+
+.icons-offcanvas{
+    width: 1.5rem;
+    height: 1.5rem;
+    color: #4747a3;
+    margin-top: .7rem;
+}
+.offcanvas-header{
+    display: flex;
+    justify-content: space-between !important;
+}
+.OffcanvasTitle{
+    padding-right: 1.5rem;
+    font-family: vazir;
+}
+.link-off{
+    text-decoration: none !important;
+    color: black;
+    padding-top: .7rem;
+}

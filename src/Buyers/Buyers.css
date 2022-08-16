@@ -1,0 +1,30 @@
+.img-buyers{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+   
+}
+
+.best-buyer{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    padding: 1rem;
+    box-shadow: 0 0 15px -2px rgba(0,0,0,0.75);
+}
+
+.best-buyers{
+    background-color: white;
+  margin-right: .3rem;
+
+}
+.best-buyers:hover{
+     transform: translateY(-3px) !important;
+    transition: all .3s ease !important;
+}
+
+.text-buyer{
+    text-align: center;
+}
+

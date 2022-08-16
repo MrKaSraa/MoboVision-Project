@@ -1,0 +1,23 @@
+.name-feature{
+    display: flex;
+    justify-content: space-between;
+}
+
+.condition-feature{
+    display: flex;
+    justify-content: space-between;
+}
+.condition-feature p{
+    font-size: .8rem;
+    font-family: vazirlight !important;
+}
+.feature-bg{
+    background-color: white;
+    padding: 1rem;
+    margin-top: 2rem;
+    direction: rtl;
+    width: 250px;
+    font-family: vazir;
+    border-radius: 20px;
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.75);
+}

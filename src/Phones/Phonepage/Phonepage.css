@@ -1,0 +1,213 @@
+.introduction{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+.text-intro{
+    text-align: right;
+    direction: rtl;
+    line-height: 2.5rem;
+    font-family: vazirlight;
+    color: white;
+}
+.text-intro p{
+    padding-left: 3rem;
+}
+
+.img-intro{
+    width:400px;
+    height:300px;
+    border-radius: 30px; 
+   transition: all .5s ease;
+}
+.img-intro:hover{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+ 
+}
+
+@media (max-width:1000px) {
+    .img-intro{
+        width:300px;
+        height:200px;
+    }.introduction{
+        display:grid;
+        justify-content:center;
+    }.img-intro-div{
+        display:grid;
+        justify-content:center;
+        margin-bottom: 2rem;
+    }.text-intro p{
+        padding-left:1rem !important;
+        padding-right:1rem !important;
+    }.text-intro{
+        text-align: center;
+        line-height: 3rem;
+    }.img-textintro img{
+        height: 400px !important;
+    }
+}
+
+
+
+.div-icon-intro{
+    display: flex;
+    align-items: center;
+    direction: rtl;
+    font-family: vazir;
+   justify-content: space-evenly;
+   background-color: rgba(192, 192, 192, 0.3);
+   padding: 1rem;
+   border-radius: 30px;
+   border:dashed 1px black;
+   width:300px !important;
+   margin-right: 1rem;
+   transition: all .3s ease;
+ }
+ 
+
+@media (max-width:767px) {
+  .div-icon-intro{
+        text-align: center;
+       
+    }.icons-intros{
+        display:grid !important;
+        justify-content:center;
+    }.icons-intro{
+        margin-bottom:2rem;
+    }.div-icon-intro{
+        margin-bottom: 2rem;
+        justify-content: space-around;
+        margin-right: 0rem;
+    }.slider-phone-page{
+        display: grid !important;
+        justify-content: center;
+    }.title-textintro{
+      text-align: center !important;
+    }.img-textintro img{
+        height: 200px !important;
+    }.p-textintro{
+        text-align: center !important;
+    }
+}
+.icon-intro:hover{
+    color: black;
+  
+   
+   
+}.div-icon-intro:hover{
+     transform: translateY(-3px);
+ 
+}
+
+
+
+.icons-intros{
+    display:flex;
+    justify-content:space-evenly; 
+   
+}
+.icon-intro{
+      width: 3rem !important;
+     height: 3rem !important;
+     margin-left: 1rem;
+     color: rgb(73, 46, 194);
+}
+
+.p-icon-intro{
+    text-align: center;
+}
+
+
+.slider-phone-page{
+    margin-top:1rem; 
+    display:flex;
+    justify-content: space-evenly;
+}
+
+
+.slider-phone-page .swiper {
+    width: 300px;
+    height: 300px;
+ margin-top: 3rem;
+ 
+
+  }
+  
+  .slider-phone-page .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .slider-phone-page .swiper-slide img {
+    display: block;
+    width: 100%;
+    border-radius: 30px;
+    border: 1px solid black;
+  }
+
+  .slider-phone-page .swiper-pagination{
+    bottom: -4px !important;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+  .slider-phone-page .swiper-pagination-bullet{
+    background-color: black ;
+        opacity: .3 ;
+  }
+  .slider-phone-page .swiper-pagination-bullet-active{
+    background-color: black !important;
+    opacity: .9 !important;
+  }
+  .title-slider-phonepage{
+    display: flex;
+    justify-content: center; 
+margin-top: 3rem;
+  }
+  .title-slider-phonepage h4{
+     padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    font-family: vazir;
+border-bottom: outset green 3px;
+ color: rgb(223, 217, 217);
+
+  }
+.title-textintro{
+    text-align: right;
+    font-family: vazirlight;
+   color: white;
+   font-size: 1.3rem;
+   margin-top: 7rem !important;
+}
+.p-textintro{
+    text-align: right;
+    font-family: vazirlight;
+    line-height: 3rem;
+    color: rgba(255, 255, 255, 0.616);
+    direction: rtl;
+}
+.img-textintro{
+display:flex;
+justify-content: center;
+
+}
+.img-textintro img{
+   border-radius: 30px;
+border:1px solid black; 
+width: 80%;
+height:500px;
+}
+
+.p-first-intro{
+    font-family: vazirlight;
+    font-size: 1.5rem;
+ text-align: center;
+ color: rgba(192, 192, 192, 0.9);
+}
+.p-textintro p{
+    
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+
+}
